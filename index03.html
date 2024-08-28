@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Diagnóstico Online</h2>
+
+    <div class="base">
+        <div class="input-box">
+            <input type="text" placeholder="Usuário" required>
+        </div>
+        
+        <div class="input-box">
+        <input type="text" placeholder="Cite seu Sintoma" list="faixa">
+            <datalist id="faixa">
+                <option value="Enxaqueca"></option>
+                <option value="Dor de Barriga"></option>
+                <option value="Febre"></option>
+            </datalist>
+        </div>
+    </div>
+
+    <div class="base">
+        <button type="button"
+        onclick="document.getElementById('flamingo').innerHTML = 'Cê tá doente mn'">Ver Diagnóstico</button>
+    </div>
+
+    <p id="flamingo"></p>
+</body>
+</html>

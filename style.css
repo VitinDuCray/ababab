@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+base {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.input-box input {
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
